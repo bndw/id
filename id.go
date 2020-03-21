@@ -22,7 +22,7 @@ func ID() string {
 	return id(-1)
 }
 
-func IDWithPrefix(pre string) string {
+func PrefixID(pre string) string {
 	return fmt.Sprintf("%s_%s", pre, id(-1))
 }
 
@@ -30,7 +30,7 @@ func ShortID() string {
 	return id(shortLength)
 }
 
-func ShortIDWithPrefix(pre string) string {
+func ShortPrefixID(pre string) string {
 	return fmt.Sprintf("%s_%s", pre, id(shortLength))
 }
 
