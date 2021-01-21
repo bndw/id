@@ -6,8 +6,6 @@ A lightweight wrapper for generating common identifiers.
 package main
 
 import (
-    "fmt"
-
     "github.com/bndw/id"
 )
 
